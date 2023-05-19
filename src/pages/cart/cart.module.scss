@@ -1,0 +1,20 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 50px;
+
+    &_title {
+      padding-top: 4rem;
+      margin: 0;
+    }
+}
+
+.empty {
+  background: rgba(255, 168, 0, 0.21);
+  border-radius: 6px;
+  text-align: center;
+  padding: 10px 5px;
+  color: #FF842C;
+}
